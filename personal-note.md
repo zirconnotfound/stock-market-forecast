@@ -41,4 +41,9 @@
 
 4. Exploratory Data Analysis (EDA)
 
--
+- Tải và xem xét dữ liệu (các cột, thông tin các cột, missing values,...)
+- Trực quan hóa dữ liệu (các cột, các feature suy ra từ các cột)
+  - Cột 'Close': trend, spike, unusual jump?
+  - Daily returns (phần trăm so với ngày trước) -> ổn định hơn so với raw price
+  - Volume: Spike xuống <-> Spike lên của close price
+  - Tương quan: OHLC tương quan ~ 1, còn Volume không liên quan mấy (corr < 0)
