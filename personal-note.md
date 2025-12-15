@@ -47,3 +47,9 @@
   - Daily returns (phần trăm so với ngày trước) -> ổn định hơn so với raw price
   - Volume: Spike xuống <-> Spike lên của close price
   - Tương quan: OHLC tương quan ~ 1, còn Volume không liên quan mấy (corr < 0)
+
+5. Preprocessing
+
+- Xử lí dữ liệu (missing values -> fill, remove)
+- Chuyển kiểu dữ liệu
+- Thêm features
